@@ -6,4 +6,14 @@
     color:white;
     text-decoration: none;
     font-size: 1.1rem;
+    transition: .3s;
+}
+.logo{
+    height: 2.5rem;
+    filter: brightness(2);
+}
+.logo:hover{
+    height: 2.8rem;
+    transition: .3s;
+    filter: brightness(5);
 }
