@@ -20,7 +20,7 @@
     font-family: Century Gothic;
 }
 .logo{
-    height: 2.5rem;
+    height: 6vmin;
     filter: brightness(2);
 }
 .logo:hover{

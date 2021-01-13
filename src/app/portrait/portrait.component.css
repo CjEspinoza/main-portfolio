@@ -10,3 +10,8 @@
     margin-top: 3vmin;
     margin-left: 11vmin;
 }
+.name:hover{
+    filter: brightness(5);
+    width: 52vmin;
+    transition: .3s;
+}
