@@ -38,3 +38,29 @@
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: black;
 }
+.fb-icon{
+    filter: brightness(100);
+    height: 3vmin;
+    margin-right: 3vmin;
+}
+.fb-icon:hover{
+    height: 3.5vmin;
+    transition: .3s;
+}
+.insta-icon{
+    filter: invert();
+    height: 3vmin;
+    margin-right: 3vmin;
+}
+.insta-icon:hover{
+    height: 3.5vmin;
+    transition: .3s;
+}
+.github-icon{
+    filter: invert();
+    height: 3vmin;
+}
+.github-icon:hover{
+    height: 3.5vmin;
+    transition: .3s;
+}
