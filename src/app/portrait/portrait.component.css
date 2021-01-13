@@ -1,7 +1,12 @@
 .portrait{
     height: 70vmin;
+    width: 70vmin;
 }
 .container{
-    display: flex;
-    padding-top: 0rem;
+    flex-direction: column;
+}
+.name{
+    width: 50vmin;
+    margin-top: 3vmin;
+    margin-left: 11vmin;
 }
