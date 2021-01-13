@@ -1,19 +1,40 @@
 .menu-item{
-    color: rgb(218, 218, 218);
+    font-size: 2.1vmin;
+    flex-direction: row;
+    padding-left: 3.4%;
+    padding-right: 3.4%;
+    color: rgb(0, 0, 0);
     font-family: Century Gothic;
 }
 .menu-item:hover{
-    color:white;
+    color:rgb(56, 56, 56);
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 2.3vmin;
     transition: .3s;
+}
+.menu-item-pipe{
+    flex-direction: row;
+    padding-left: 3.4%;
+    padding-right: 3.4%;
+    color: rgb(0, 0, 0);
+    font-family: Century Gothic;
 }
 .logo{
     height: 2.5rem;
     filter: brightness(2);
 }
 .logo:hover{
-    height: 2.8rem;
     transition: .3s;
     filter: brightness(5);
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    background-color: rgba(102, 102, 102, 0.26);
+    border-radius: .3rem;
+}
+.navbar{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: black;
 }

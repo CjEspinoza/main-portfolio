@@ -1,0 +1,7 @@
+.portrait{
+    height: 70vmin;
+}
+.container{
+    display: flex;
+    padding-top: 0rem;
+}
