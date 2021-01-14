@@ -1,0 +1,14 @@
+.container{
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.frame{
+    flex-direction: row;
+    background-color: cornflowerblue;
+    width: 65%;
+}
+.portrait{
+    width: 35%;
+}

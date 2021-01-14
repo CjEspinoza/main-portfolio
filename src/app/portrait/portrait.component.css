@@ -2,16 +2,12 @@
     height: 70vmin;
     width: 70vmin;
 }
-.container{
-    flex-direction: column;
-}
 .name{
     width: 50vmin;
     margin-top: 3vmin;
     margin-left: 11vmin;
 }
 .name:hover{
-    filter: brightness(5);
-    width: 52vmin;
+    filter: brightness(3);
     transition: .3s;
 }
