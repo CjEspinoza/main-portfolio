@@ -9,6 +9,7 @@ import { FrameComponent } from './frame/frame.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './home/home.component';
     PortraitComponent,
     FrameComponent,
     SkillsComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
