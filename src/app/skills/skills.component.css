@@ -1,0 +1,28 @@
+.home-con{
+    margin-top: 8vmin;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    width: 10vmin;
+    margin: 2vmin;
+    cursor: pointer;
+}
+.icons:hover{
+    width: 11vmin;
+    transition: .3s;
+}
+.icon-con{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons2{
+    display: flex;
+    width: 18vmin;
+    margin: 2vmin;
+    cursor: pointer;
+}
+.icons2:hover{
+    width: 19vmin;
+    transition: .3s;
+}

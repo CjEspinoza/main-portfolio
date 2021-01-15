@@ -1,0 +1,21 @@
+.container-fluid {
+    margin-top: 50px;
+    color: #000 !important;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px 20px rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    background-color: #F8F9FB !important
+}
+
+footer {
+    color: #caced1 !important
+}
+
+.row-1 {
+    background-color: #000000 !important
+}
+
+.row-2 {
+    background-color: #000000 !important
+}

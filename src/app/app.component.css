@@ -5,9 +5,12 @@
     justify-content: center;
 }
 .frame{
+    background-color: rgb(202, 202, 202);
     flex-direction: row;
-    background-color: cornflowerblue;
-    width: 65%;
+    width: 58%;
+    border-style: outset;
+    border-radius: 3vmin;
+    box-shadow: 10px 20px 15px 5px rgb(92, 92, 92);
 }
 .portrait{
     width: 35%;
