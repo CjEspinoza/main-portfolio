@@ -1,0 +1,15 @@
+.main-con{
+    flex-direction: column;
+}
+.name-tf{
+    width: 50vmin;
+}
+.email-tf{
+    width: 50vmin;
+}
+.con-1{
+    flex-direction: column;
+}
+#message{
+    width: 108vmin;
+}
