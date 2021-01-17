@@ -26,3 +26,10 @@
     width: 19vmin;
     transition: .3s;
 }
+
+@media screen and (max-width:426px){
+    h2{
+        font-size: 4vmin;
+        padding-left: 2vmin;
+    }
+}

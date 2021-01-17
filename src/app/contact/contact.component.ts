@@ -16,6 +16,5 @@ export class ContactComponent implements OnInit {
   appendMailTo(){
     this.name = this.name;
     this.message = this.message;
-
   }
 }

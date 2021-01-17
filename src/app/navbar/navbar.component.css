@@ -1,5 +1,5 @@
 .menu-item{
-    font-size: 2.1vmin;
+    font-size: 2.2vmin;
     flex-direction: row;
     padding-left: 3.4%;
     padding-right: 3.4%;
@@ -9,7 +9,7 @@
 .menu-item:hover{
     color:rgb(56, 56, 56);
     text-decoration: none;
-    font-size: 2.3vmin;
+    font-size: 2.6vmin;
     transition: .3s;
 }
 .menu-item-pipe{
@@ -28,15 +28,20 @@
     filter: brightness(5);
 }
 .nav-menu{
+    position: fixed;
     display: flex;
     justify-content: center;
     width: 60%;
     background-color: rgba(65, 65, 65, 0.411);
     border-radius: .3rem;
+    margin-top: 9.1vmin;
 }
 .navbar{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 .fb-icon{
     filter: brightness(100);
@@ -63,4 +68,25 @@
 .github-icon:hover{
     height: 3.5vmin;
     transition: .3s;
+}
+
+@media screen and (max-width:426px){
+    .nav-menu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        background-color: rgba(65, 65, 65, 0.411);
+        border-radius: .3rem;
+        margin-top: 11vmin;
+    }
+    .menu-item{
+        font-size: 2.2vmin;
+        flex-direction: row;
+        padding-left: 3.4%;
+        padding-right: 3.4%;
+        padding-top: 10px;
+        color: rgb(0, 0, 0);
+        font-family: Century Gothic;
+    }
 }

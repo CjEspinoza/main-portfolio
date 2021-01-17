@@ -9,9 +9,40 @@
     flex-direction: row;
     width: 58%;
     border-style: outset;
-    border-radius: 3vmin;
     box-shadow: 10px 20px 15px 5px rgb(92, 92, 92);
 }
 .portrait{
     width: 35%;
+}
+.con1{
+    margin-top: 13.8vmin;
+}
+
+@media screen and (max-width:768px){
+    .con1{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .portrait{
+        margin-left: 200px;
+    }
+    .frame{
+        width: 100vmin;
+        box-shadow: none;
+    }
+}
+@media screen and (max-width:426px){
+    .con1{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+    }
+    .portrait{
+        margin-left: 105px;
+    }
+    .frame{
+        width: 80vmin;
+        box-shadow: none;
+    }
 }

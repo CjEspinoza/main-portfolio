@@ -16,3 +16,14 @@ h2{
 h3{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+@media screen and (max-width:426px){
+    h1{
+        font-size: 10vmin;
+    }
+    h2{
+        font-size: 4vmin;
+    }
+    h3{
+        font-size: 5vmin;
+    }
+}

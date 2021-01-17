@@ -1,15 +1,86 @@
-.main-con{
+.right{
     flex-direction: column;
+    width: 67vmin;
+    background-color: whitesmoke;
+}
+.left{
+    width: 50vmin;
+    margin: 0;
+    padding: 0;
 }
 .name-tf{
-    width: 50vmin;
+    width: 60vmin;
 }
 .email-tf{
-    width: 50vmin;
+    width: 60vmin;
 }
 .con-1{
     flex-direction: column;
 }
 #message{
-    width: 108vmin;
+    width: 64vmin;
+    resize: none;
+}
+.header{
+    background-color: teal;
+}
+.btn-submit{
+    background-color: teal;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 8px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:768px){
+    .name-tf{
+        width: 50vmin;
+    }
+    .email-tf{
+        width: 50vmin;
+    }
+    #message{
+        width: 54vmin;
+        resize: none;
+    }
+    .left{
+        width: 40vmin;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width:426px){
+    .container{
+        flex-direction: column;
+        margin: 0px;
+        padding:0px;
+    }
+    img{
+        width: 285.5px;
+    }
+    .btn-submit{
+        background-color: teal;
+        color: white;
+        text-decoration: none;
+        width: 100px;
+        text-align: center;
+        margin-left: 90px;
+    }
+    .name-tf{
+        width: 54vmin;
+    }
+    .email-tf{
+        width: 54vmin;
+    }
+    #message{
+        width: 54vmin;
+        resize: none;
+        margin-left: 25px;
+        height: 30vmin;
+    }
+    .message{
+        margin-left: 16px;
+    }
 }
