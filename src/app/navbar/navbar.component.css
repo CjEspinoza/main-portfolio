@@ -3,20 +3,21 @@
     flex-direction: row;
     padding-left: 3.4%;
     padding-right: 3.4%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Century Gothic;
 }
 .menu-item:hover{
-    color:rgb(56, 56, 56);
+    color:rgb(0, 0, 0);
     text-decoration: none;
     font-size: 2.6vmin;
     transition: .3s;
+    font-weight: bold;
 }
 .menu-item-pipe{
     flex-direction: row;
     padding-left: 3.4%;
     padding-right: 3.4%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Century Gothic;
 }
 .logo{
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: center;
     width: 60%;
-    background-color: rgba(65, 65, 65, 0.411);
+    background-color: rgba(39, 37, 37, 0.747);
     border-radius: .3rem;
     margin-top: 9.1vmin;
 }
@@ -69,14 +70,18 @@
     height: 3.5vmin;
     transition: .3s;
 }
-
+@media screen and (max-width:1025px){
+    .menu-item{
+        margin-top: 5px;
+    }
+}
 @media screen and (max-width:426px){
     .nav-menu{
         position: fixed;
         display: flex;
         justify-content: center;
         width: 75%;
-        background-color: rgba(65, 65, 65, 0.411);
+        background-color: rgba(39, 37, 37, 0.747);
         border-radius: .3rem;
         margin-top: 11vmin;
     }
@@ -86,7 +91,63 @@
         padding-left: 3.4%;
         padding-right: 3.4%;
         padding-top: 10px;
-        color: rgb(0, 0, 0);
+        color: white;
+        font-family: Century Gothic;
+    }
+}
+@media screen and (max-width:376px){
+    .nav-menu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        background-color: rgba(39, 37, 37, 0.747);
+        border-radius: .3rem;
+        margin-top: 8vmin;
+    }
+    .menu-item{
+        font-size: 2.2vmin;
+        flex-direction: row;
+        padding-left: 3.4%;
+        padding-right: 3.4%;
+        padding-top: 15px;
+        color: white;
+        font-family: Century Gothic;
+    }
+    .menu-item-pipe{
+        flex-direction: row;
+        padding-left: 3.4%;
+        padding-right: 3.4%;
+        padding-top: 5px;
+        color: rgb(255, 255, 255);
+        font-family: Century Gothic;
+    }
+}
+@media screen and (max-width:376px){
+    .nav-menu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        background-color: rgba(39, 37, 37, 0.747);
+        border-radius: .3rem;
+        margin-top: 9vmin;
+    }
+    .menu-item{
+        font-size: 2.2vmin;
+        flex-direction: row;
+        padding-left: 3.4%;
+        padding-right: 3.4%;
+        padding-top: 20px;
+        color: white;
+        font-family: Century Gothic;
+    }
+    .menu-item-pipe{
+        flex-direction: row;
+        padding-left: 3.4%;
+        padding-right: 3.4%;
+        padding-top: 8px;
+        color: rgb(255, 255, 255);
         font-family: Century Gothic;
     }
 }

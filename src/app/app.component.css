@@ -17,7 +17,6 @@
 .con1{
     margin-top: 13.8vmin;
 }
-
 @media screen and (max-width:768px){
     .con1{
         flex-direction: column;

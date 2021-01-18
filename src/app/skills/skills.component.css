@@ -4,13 +4,23 @@
 }
 .icons{
     display: flex;
-    width: 10vmin;
-    margin: 2vmin;
+    width: 6.5vmin;
     cursor: pointer;
+    margin: 3px;
 }
-.icons:hover{
-    width: 11vmin;
-    transition: .3s;
+.icon-java{
+    display: flex;
+    width: 5vmin;
+    cursor: pointer;
+    margin: 3px;
+    margin-left: 8px;
+}
+.icon-php{
+    display: flex;
+    width: 6.5vmin;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .icon-con{
     justify-content: center;
@@ -18,18 +28,352 @@
 }
 .icons2{
     display: flex;
-    width: 18vmin;
+    width: 15vmin;
     margin: 2vmin;
     cursor: pointer;
 }
-.icons2:hover{
-    width: 19vmin;
-    transition: .3s;
+.left{
+    justify-content: center;
+    flex-direction: column;
+    width: 58.7vmin;
 }
-
+.right{
+    justify-content: center;
+    flex-direction: column;
+    width: 58.7vmin;
+}
+.main-con{
+    flex-direction: row;
+}
+.con1{
+    flex-direction: column;
+}
+.con2{
+    flex-direction: column;
+}
+.skill-1{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 2vmin;
+    color: rgb(236, 229, 229);
+    justify-content: right;
+}
+.skill-2{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 4.5vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-3{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 4.5vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-4{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 4vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-5{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 4.5vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-6{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 3.4vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-7{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 3.2vmin;
+    color: rgb(236, 229, 229);
+}
+.skill-8{
+    background-color: rgb(175, 175, 175);
+    width: 47vmin;
+    margin-left: 1vmin;
+    margin-top: 4vmin;
+    color: rgb(236, 229, 229);
+}
+.angular{
+    background-color: rgb(0, 0, 0);
+    width: 85%;
+}
+.android{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+}
+.csharp{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+}
+.html{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+}
+.java{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+}
+.php{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+}
+.python{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+}
+.reactjs{
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+}
+.title{
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.maincon{
+    background-color: black;
+    color: white;
+}
+.con3{
+    background-color: black;
+    color: white;
+    margin-top: -8px;
+}
+@media screen and (max-width:1441px){
+    .left{
+        justify-content: center;
+        flex-direction: column;
+        width: 50vmin;
+    }
+    .right{
+        justify-content: center;
+        flex-direction: column;
+        width: 50vmin;
+    }
+    .skill-1{
+        width: 36vmin;
+    }
+    .skill-2{
+        width: 36vmin;
+    }
+    .skill-3{
+        width: 36vmin;
+    }
+    .skill-4{
+        margin-top: 3vmin;
+        width: 36vmin;
+    }
+    .skill-5{
+        margin-top: 3.5vmin;
+        width: 36vmin;
+    }
+    .skill-6{
+        width: 36vmin;
+        margin-top: 3.5vmin;
+    }
+    .skill-7{
+        width: 36vmin;
+        margin-top: 3.2vmin;
+    }
+    .skill-8{
+        width: 36vmin;
+        margin-top: 4vmin;
+    }
+}
+@media screen and (max-width:1024px){
+    .left{
+        justify-content: center;
+        flex-direction: column;
+        width: 45vmin;
+    }
+    .right{
+        justify-content: center;
+        flex-direction: column;
+        width: 45vmin;
+    }
+    .skill-1{
+        width: 33vmin;
+    }
+    .skill-2{
+        width: 33vmin;
+    }
+    .skill-3{
+        width: 33vmin;
+    }
+    .skill-4{
+        margin-top: 3vmin;
+        width: 33vmin;    }
+    .skill-5{
+        margin-top: 3.5vmin;
+        width: 33vmin;
+    }
+    .skill-6{
+        width: 33vmin;
+        margin-top: 3.5vmin;
+    }
+    .skill-7{
+        width: 33vmin;
+        margin-top: 3.2vmin;
+    }
+    .skill-8{
+        width: 33vmin;
+        margin-top: 4vmin;
+    }
+    .con3{
+        margin-top: -15px;
+    }
+}
+@media screen and (max-width:769px){
+    h3{
+        font-size: 4vmin;
+    }
+    .maincon{
+        background-color: black;
+        color: white;
+    }
+    .con3{
+        background-color: black;
+        color: white;
+        margin-top: -16px;
+    }
+    .left{
+        justify-content: center;
+        flex-direction: column;
+        width: 50vmin;
+    }
+    .right{
+        justify-content: center;
+        flex-direction: column;
+        width: 50vmin;
+    }
+    .skill-1{
+        width: 38vmin;
+    }
+    .skill-2{
+        width: 38vmin;
+    }
+    .skill-3{
+        width: 38vmin;
+    }
+    .skill-4{
+        margin-top: 3vmin;
+        width: 38vmin;
+    }
+    .skill-5{
+        margin-top: 3.5vmin;
+        width: 38vmin;
+    }
+    .skill-6{
+        width: 38vmin;
+        margin-top: 3.5vmin;
+    }
+    .skill-7{
+        width: 38vmin;
+        margin-top: 3.2vmin;
+    }
+    .skill-8{
+        width: 38vmin;
+        margin-top: 4vmin;
+    }
+}
 @media screen and (max-width:426px){
     h2{
         font-size: 4vmin;
         padding-left: 2vmin;
+    }
+    h3{
+        font-size: 4vmin;
+    }
+    .maincon{
+        background-color: black;
+        color: white;
+    }
+    .con3{
+        background-color: black;
+        color: white;
+        margin-top: -15px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        justify-content: center;
+        flex-direction: column;
+        width: 80vmin;
+        margin-bottom: 25px;
+    }
+    .right{
+        justify-content: center;
+        flex-direction: column;
+        width: 80vmin;
+    }
+    .icons{
+        display: flex;
+        width: 10.5vmin;
+        cursor: pointer;
+        margin: 3px;
+    }
+    .icon-java{
+        display: flex;
+        width: 9vmin;
+        cursor: pointer;
+        margin: 3px;
+        margin-left: 8px;
+    }
+    .icon-php{
+        display: flex;
+        width: 10.5vmin;
+        cursor: pointer;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .icons2{
+        width: 25vmin;
+    }
+    .skill-1{
+        margin-top: 3vmin;
+        width: 60vmin;
+    }
+    .skill-2{
+        margin-top: 7vmin;
+        width: 60vmin;
+    }
+    .skill-3{
+        margin-top: 7vmin;
+        width: 60vmin;
+    }
+    .skill-4{
+        margin-top: 7vmin;
+        width: 60vmin;
+    }
+    .skill-5{
+        margin-top: 7vmin;
+        width: 60vmin;
+    }
+    .skill-6{
+        width: 60vmin;
+        margin-top: 5vmin;
+    }
+    .skill-7{
+        width: 60vmin;
+        margin-top: 5vmin;
+    }
+    .skill-8{
+        width: 60vmin;
+        margin-top: 7vmin;
     }
 }
