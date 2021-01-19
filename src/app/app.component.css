@@ -15,7 +15,14 @@
     width: 35%;
 }
 .con1{
+    flex-direction: column;
     margin-top: 13.8vmin;
+    background-color: rgb(0, 0, 0);
+}
+.maindiv{
+    width: 120vmin;
+    background-color: white;
+    margin-left: 41vmin;
 }
 @media screen and (max-width:768px){
     .con1{

@@ -1,0 +1,49 @@
+h3{
+    color: #ffbf00;
+    margin-top: 50px;
+    font-family: Haettenschweiler;
+    font-size: 6vmin;
+}
+hr{
+    border: 1px #a67c00 solid;
+    width: 90%;
+}
+.vector{
+    width: 30vmin;
+    border-radius: 100%;
+    border: 5px	#ffbf00 double;
+}
+.vector:hover{
+    border: 8px	#ffbf00 solid;
+    transition: .3s;
+    cursor: pointer;
+}
+.about{
+    flex-direction: row;
+}
+.left{
+    width: 35%;
+}
+.right{
+    width: 65%;
+    flex-direction: column;
+}
+p{
+    font-size: 16px;
+    font-family: Century Gothic;
+    color: #ffcf40;
+    text-align: center;
+}
+.icons{
+    width: 10vmin;
+    filter: brightness(10);
+}
+.icon-fb{
+    width: 10vmin;
+    filter: brightness(10);
+}
+.icons:hover, .icon-fb:hover{
+    cursor: pointer;
+    transition: .5s;
+    filter: invert(1);
+}
