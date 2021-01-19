@@ -1,0 +1,37 @@
+.container{
+    background-color: white;
+}
+h3{
+    color: rgb(27, 27, 27);
+    margin-top: 50px;
+    font-family: Haettenschweiler;
+    font-size: 6vmin;
+}
+hr{
+    margin:0;
+    border: 1px #1b1b1b solid;
+    width: 90%;
+    background-color: white;
+}
+.hr{
+    background-color: white;
+}
+.pro{
+    width: 25vmin;
+    border: 5px rgb(36, 36, 36) double;
+}
+.pro:hover{
+    width: 26.5vmin;
+    border: 10px #ffbf00 solid;
+    transition: .3s;
+    cursor: pointer;
+}
+.pro-con{
+    flex-direction: column;
+}
+label{
+    font-family: Copperplate Gothic;
+    font-size: 3vmin;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

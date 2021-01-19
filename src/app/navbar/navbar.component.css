@@ -44,25 +44,17 @@
     width: 100%;
     z-index: 2;
 }
-.fb-icon{
-    filter: brightness(100);
+.linkedin-icon{
+    padding-left: 15px;
+    filter: brightness(10);
     height: 3vmin;
-    margin-right: 3vmin;
 }
-.fb-icon:hover{
-    height: 3.5vmin;
-    transition: .3s;
-}
-.insta-icon{
-    filter: invert();
-    height: 3vmin;
-    margin-right: 3vmin;
-}
-.insta-icon:hover{
+.linkedin-icon:hover{
     height: 3.5vmin;
     transition: .3s;
 }
 .github-icon{
+    padding-left: 15px;
     filter: invert();
     height: 3vmin;
 }
