@@ -1,4 +1,4 @@
-.container{
+.container, .main-con{
     background-color: white;
 }
 h3{
@@ -33,4 +33,18 @@ label{
     font-size: 3vmin;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+@media screen and (max-width:426px){
+    .main-con{
+        flex-direction: column;
+    }
+    .pro{
+        width: 78vmin;
+    }
+    label{
+        font-size: 7vmin;
+    }
+    i{
+        font-size: 5vmin;
+    }
 }

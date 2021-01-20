@@ -24,3 +24,29 @@ h2:hover{
     transition: .5s;
     cursor: pointer;
 }
+@media screen and (max-width:1441px){
+    .poster{
+        width: 102vmin;
+    }
+}
+@media screen and (max-width:1025px){
+    .poster{
+        width: 104vmin;
+    }
+}
+@media screen and (max-width:769px){
+    .poster{
+        width: 106vmin;
+    }
+}
+@media screen and (max-width:426px){
+    .poster{
+        width: 90vmin;
+    }
+    h1{
+        font-size: 8vmin;
+    }
+    h2{
+        font-size: 6vmin;
+    }
+}

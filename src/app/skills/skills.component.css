@@ -19,6 +19,9 @@ hr{
     background-color: #ffcf40;
     flex-direction: row;
 }
+.main-con{
+    background-color: #ffcf40;
+}
 .icons{
     width: 7vmin;
 }
@@ -54,4 +57,23 @@ hr{
 }
 .badges{
     width: 20vmin;
+}
+@media screen and (max-width:1025px){
+    .skillbar{
+        width: 27vmin;
+    }
+}
+@media screen and (max-width:426px){
+    .main-con{
+        flex-direction: column;
+    }
+    .icons{
+        width: 12vmin;
+    }
+    .skillbar{
+        width: 55vmin;
+    }
+    .badges{
+        width: 28vmin;
+    }
 }

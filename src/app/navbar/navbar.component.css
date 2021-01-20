@@ -67,81 +67,41 @@
 @media screen and (max-width:1025px){
     .menu-item{
         margin-top: 5px;
+        font-size: 2vmin;
+    }
+    .nav-menu{
+        width: 70%;
+        margin-left: 24vmin;
+    }
+}
+@media screen and (max-width:769px){
+.nav-menu{
+        width: 80%;
+        margin-left: 12vmin;
     }
 }
 @media screen and (max-width:426px){
     .nav-menu{
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        background-color: rgba(39, 37, 37, 0.747);
-        border-radius: .3rem;
-        margin-top: 11vmin;
+        width: 90%;
+        margin-left: 5vmin;
     }
     .menu-item{
-        font-size: 2.2vmin;
+        font-size: 2.8vmin;
         flex-direction: row;
-        padding-left: 3.4%;
-        padding-right: 3.4%;
+        padding-left: .5%;
+        padding-right: .5%;
         padding-top: 10px;
         color: white;
         font-family: Century Gothic;
     }
-}
-@media screen and (max-width:376px){
-    .nav-menu{
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        background-color: rgba(39, 37, 37, 0.747);
-        border-radius: .3rem;
-        margin-top: 8vmin;
-    }
-    .menu-item{
-        font-size: 2.2vmin;
-        flex-direction: row;
-        padding-left: 3.4%;
-        padding-right: 3.4%;
-        padding-top: 15px;
-        color: white;
-        font-family: Century Gothic;
-    }
     .menu-item-pipe{
-        flex-direction: row;
-        padding-left: 3.4%;
-        padding-right: 3.4%;
-        padding-top: 5px;
-        color: rgb(255, 255, 255);
-        font-family: Century Gothic;
+        padding-top: 10px;
     }
-}
-@media screen and (max-width:376px){
-    .nav-menu{
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        width: 75%;
-        background-color: rgba(39, 37, 37, 0.747);
-        border-radius: .3rem;
-        margin-top: 9vmin;
-    }
-    .menu-item{
-        font-size: 2.2vmin;
-        flex-direction: row;
-        padding-left: 3.4%;
-        padding-right: 3.4%;
-        padding-top: 20px;
-        color: white;
-        font-family: Century Gothic;
-    }
-    .menu-item-pipe{
-        flex-direction: row;
-        padding-left: 3.4%;
-        padding-right: 3.4%;
-        padding-top: 8px;
-        color: rgb(255, 255, 255);
-        font-family: Century Gothic;
+    .menu-item:hover{
+        color: #ffbf00;
+        text-decoration: none;
+        transition: .3s;
+        font-weight: bold;
+        font-size: 2.8vmin;
     }
 }

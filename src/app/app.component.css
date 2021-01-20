@@ -4,9 +4,6 @@
     padding: 0;
     justify-content: center;
 }
-.portrait{
-    width: 35%;
-}
 .con1{
     flex-direction: column;
     margin-top: 13.8vmin;
@@ -16,4 +13,29 @@
     width: 120vmin;
     background-color: transparent;
     margin-left: 41vmin;
+}
+@media screen and (max-width:1441px){
+    .maindiv{
+        width: 102vmin;
+    }
+}
+@media screen and (max-width:1025px){
+    .maindiv{
+        width: 72vmin;
+    }
+}
+@media screen and (max-width:769px){
+    .maindiv{
+        width: 81vmin;
+        margin-left: 18vmin;
+    }
+}
+@media screen and (max-width:426px){
+    .maindiv{
+        width: 90vmin;
+        margin-left: 5vmin;
+    }
+    .con1{
+        width: 90vmin;
+    }
 }

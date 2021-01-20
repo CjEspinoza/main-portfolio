@@ -47,3 +47,19 @@ p{
     transition: .5s;
     filter: invert(1);
 }
+@media screen and (max-width:1025px){
+    .vector{
+        height: 30vmin;
+    }
+}
+@media screen and (max-width:426px){
+    p{
+        font-size: 13px;
+    }
+    .icons{
+        width: 14vmin;
+    }
+    .icon-fb{
+        width: 14vmin;
+    }
+}
