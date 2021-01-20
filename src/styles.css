@@ -2,6 +2,13 @@ body{
     background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-self: center;
+}
+html{
+  scroll-behavior:smooth;
+  display: flex;
+  justify-self: center;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -10,12 +17,12 @@ body{
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background:#a67c00; 
+    background: rgb(29, 29, 29); 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #131313; 
+    background: #a67c00; 
   }
   
   /* Handle on hover */

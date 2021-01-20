@@ -1,180 +1,66 @@
-.right{
-    flex-direction: column;
-    width: 67vmin;
-    background-color: rgb(182, 182, 182);
-    color: white;
+h3{
+    color: #000000;
+    margin-top: 50px;
+    font-family: Haettenschweiler;
+    font-size: 6vmin;
 }
-.left{
-    width: 50vmin;
+hr{
+    border: 1px #000000 solid;
+    width: 90%;
+    background-color:#ffcf40;
     margin: 0;
+}
+.hr{
     padding: 0;
+    background-color:#ffcf40;
 }
-.name-tf{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 45vmin;
-    background-color: rgb(175, 174, 174);
-    color: white;
-    border: none;
-    border-bottom: 2px rgb(48, 48, 48) solid;
+.container{
+    background-color: #ffcf40;
 }
-.name-tf::placeholder{
-    color: rgb(218, 216, 216);
-}
-.email-tf::placeholder{
-    color: rgb(218, 216, 216);
-}
-.email-tf{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 45vmin;
-    background-color: rgb(175, 174, 174);
-    color: white;
-    border: none;
-    border-bottom: 2px rgb(48, 48, 48) solid;
-}
-#message::placeholder{
-    color: rgb(218, 216, 216);
-}
-.con-1{
+.con{
     flex-direction: column;
+    background-color: #ffcf40;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form2{
+    flex-direction: column;
+}
+.icon-form{
+    width: 25px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.tf{
+    width: 230px;
+    border: none;
+    margin-left: 5px;
+    height: 35px;
+}
+.textfield{
+    display: flex;
+    flex-direction: row;
+    width: 275px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 15px;
 }
 #message{
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 45vmin;
+    width: 580px;
     resize: none;
-    margin-left: 8px;
-    background-color: rgb(175, 174, 174);
-    color: white;
-    border: none;
-    border-bottom: 2px rgb(48, 48, 48) solid;
-}
-.header{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 2px;
-}
-h4{
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 10px;
 }
 .btn-submit{
-    background-color: rgb(2, 2, 2);
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 8px;
+    padding: 8px;
+    background-color: black;
     color: white;
+    margin: 20px;
     text-decoration: none;
 }
 .btn-submit:hover{
     background-color: white;
-    padding-left: 22px;
-    padding-right: 22px;
-    margin-bottom: 8px;
     color: black;
     transition: .3s;
-}
-.contact{
-    width: 70vmin;
-    filter: blur(30)
-}
-.icon{
-    margin: 10px;
-    height: 2vmin;
-    filter: invert();
-}
-@media screen and (max-width:1440px){
-    .right{
-        flex-direction: column;
-        width: 58.5vmin;
-        background-color: rgb(231, 231, 231);
-        height: 70vmin;
-    }
-    .left{
-        width: 41.5vmin;
-        margin: 0;
-        padding: 0;
-        height: 70vmin;
-    }
-}
-
-@media screen and (max-width:1025px){
-    .right{
-        flex-direction: column;
-        width: 53vmin;
-        background-color: rgb(231, 231, 231);
-        height: 70vmin;
-    }
-    .left{
-        width: 36vmin;
-        margin: 0;
-        padding: 0;
-        height: 70vmin;
-    }
-    .contact{
-        width: 60vmin;
-        filter: blur(30)
-    }
-    #message{
-        width: 45vmin;
-        height: 30vmin;
-        resize: none;
-    }
-}
-@media screen and (max-width:768px){
-    .name-tf{
-        width: 50vmin;
-    }
-    .email-tf{
-        width: 50vmin;
-    }
-    #message{
-        width: 54vmin;
-        resize: none;
-    }
-    .left{
-        width: 40vmin;
-        margin: 0;
-        padding: 0;
-    }
-    .contact{
-        width: 67vmin;
-        filter: blur(30)
-    }
-}
-@media screen and (max-width:426px){
-    .container{
-        flex-direction: column;
-        margin: 0px;
-        padding:0px;
-    }
-    img{
-        width: 285.5px;
-    }
-    .btn-submit{
-        background-color: rgb(0, 0, 0);
-        color: white;
-        text-decoration: none;
-        width: 100px;
-        text-align: center;
-        margin-left: 90px;
-    }
-    .name-tf{
-        width: 54vmin;
-    }
-    .email-tf{
-        width: 54vmin;
-    }
-    #message{
-        width: 54vmin;
-        resize: none;
-        margin-left: 25px;
-        height: 30vmin;
-    }
-    .message{
-        margin-left: 16px;
-    }
 }

@@ -22,11 +22,10 @@
 }
 .logo{
     height: 6vmin;
-    filter: brightness(2);
 }
 .logo:hover{
     transition: .3s;
-    filter: brightness(5);
+    filter: brightness(2);
 }
 .nav-menu{
     position: fixed;
@@ -36,6 +35,7 @@
     background-color: rgba(39, 37, 37, 0.747);
     border-radius: .3rem;
     margin-top: 9.1vmin;
+    margin-left: 40vmin;
 }
 .navbar{
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -52,15 +52,17 @@
 .linkedin-icon:hover{
     height: 3.5vmin;
     transition: .3s;
+    filter: invert();
 }
 .github-icon{
     padding-left: 15px;
-    filter: invert();
+    filter: brightness(10);
     height: 3vmin;
 }
 .github-icon:hover{
     height: 3.5vmin;
     transition: .3s;
+    filter: invert();
 }
 @media screen and (max-width:1025px){
     .menu-item{

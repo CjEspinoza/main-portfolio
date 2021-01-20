@@ -4,13 +4,6 @@
     padding: 0;
     justify-content: center;
 }
-.frame{
-    background-color: rgb(202, 202, 202);
-    flex-direction: row;
-    width: 58%;
-    border-style: outset;
-    box-shadow: 10px 20px 15px 5px rgb(92, 92, 92);
-}
 .portrait{
     width: 35%;
 }
@@ -21,34 +14,6 @@
 }
 .maindiv{
     width: 120vmin;
-    background-color: white;
+    background-color: transparent;
     margin-left: 41vmin;
-}
-@media screen and (max-width:768px){
-    .con1{
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 50px;
-    }
-    .portrait{
-        margin-left: 200px;
-    }
-    .frame{
-        width: 100vmin;
-        box-shadow: none;
-    }
-}
-@media screen and (max-width:426px){
-    .con1{
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 50px;
-    }
-    .portrait{
-        margin-left: 105px;
-    }
-    .frame{
-        width: 80vmin;
-        box-shadow: none;
-    }
 }
