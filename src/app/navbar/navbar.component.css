@@ -105,6 +105,20 @@
         font-size: 2.8vmin;
     }
 }
+@media screen and (max-width:376px){
+    .menu-item{
+        font-size: 2.8vmin;
+        flex-direction: row;
+        padding-left: .5%;
+        padding-right: .5%;
+        padding-top: 20px;
+        color: white;
+        font-family: Century Gothic;
+    }
+    .menu-item-pipe{
+        padding-top: 20px;
+    }
+}
 @media screen and (max-width:321px){
     .menu-item{
         font-size: 2.8vmin;

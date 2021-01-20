@@ -10,9 +10,35 @@ footer {
 .row-1 {
     background-color: #000000 !important
 }
-.icon{
+.icon, .icon-angular{
     width: 40px;
 }
 .col-12{
     flex-direction: column;
+}
+@media screen and (max-width:426px){
+    h2{
+        font-size: 25px;
+    }
+    .icon-angular{
+        width: 32px;
+    }
+}
+@media screen and (max-width:376px){
+    h2{
+        font-size: 20px;
+    }
+
+    .icon-angular{
+        width: 25px;
+    }
+}
+@media screen and (max-width:321px){
+    h2{
+        font-size: 20px;
+    }
+
+    .icon-angular{
+        width: 25px;
+    }
 }

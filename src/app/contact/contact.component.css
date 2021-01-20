@@ -75,6 +75,23 @@ hr{
     .form{
         flex-direction: column;
     }
+    h3{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:376px){
+    .tf{
+        width: 200px;
+    }
+    .textfield{
+        width: 247px;
+    }
+    .textarea{
+        width: 247px;
+    }
+    h3{
+        font-size: 40px;
+    }
 }
 @media screen and (max-width:321px){
     .tf{
@@ -87,5 +104,8 @@ hr{
     .textarea{
         margin-left: -30px;
         width: 247px;
+    }
+    h3{
+        font-size: 40px;
     }
 }

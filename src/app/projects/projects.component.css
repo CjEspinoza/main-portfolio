@@ -57,10 +57,24 @@ label{
         width: 320px;
         height: 200px;
     }
+    h3{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:376px){
+    .p-con{
+        width: 290px;
+    }
+    h3{
+        font-size: 40px;
+    }
 }
 @media screen and (max-width:321px){
     .p-con{
         width: 240px;
         height: 200px;
+    }
+    h3{
+        font-size: 40px;
     }
 }

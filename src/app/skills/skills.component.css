@@ -15,7 +15,7 @@ hr{
     background-color: #ffcf40;
     justify-content: center;
 }
-.container{
+.container, .badge-con{
     background-color: #ffcf40;
     flex-direction: row;
 }
@@ -56,11 +56,16 @@ hr{
     flex-direction: column;
 }
 .badges{
-    width: 20vmin;
+    width: 25vmin;
 }
 @media screen and (max-width:1025px){
     .skillbar{
         width: 27vmin;
+    }
+}
+@media screen and (max-width:769px){
+    .badges{
+        width: 30vmin;
     }
 }
 @media screen and (max-width:426px){
@@ -75,5 +80,25 @@ hr{
     }
     .badges{
         width: 28vmin;
+    }
+    h3{
+        font-size: 40px;
+    }
+}@media screen and (max-width:376px){
+    .badges{
+        width: 50vmin;
+    }
+    .badge-con{
+        padding-left: 75px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:321px){
+    .badges{
+        width: 50vmin;
+    }
+    .badge-con{
+        padding-left: 65px;
+        flex-direction: column;
     }
 }
