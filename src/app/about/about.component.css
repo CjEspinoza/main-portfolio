@@ -63,3 +63,14 @@ p{
         width: 14vmin;
     }
 }
+@media screen and (max-width:321px){
+    p{
+        font-size: 10px;
+    }
+    .icons{
+        width: 18vmin;
+    }
+    .icon-fb{
+        width: 18vmin;
+    }
+}

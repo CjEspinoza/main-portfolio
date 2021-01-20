@@ -34,6 +34,12 @@ label{
     padding-bottom: 0;
     margin-bottom: 0;
 }
+.p-con{
+    padding-top: 10px;
+    width: 185px;
+    height: 200px;
+    text-align: justify;
+}
 @media screen and (max-width:426px){
     .main-con{
         flex-direction: column;
@@ -46,5 +52,15 @@ label{
     }
     i{
         font-size: 5vmin;
+    }
+    .p-con{
+        width: 320px;
+        height: 200px;
+    }
+}
+@media screen and (max-width:321px){
+    .p-con{
+        width: 240px;
+        height: 200px;
     }
 }
