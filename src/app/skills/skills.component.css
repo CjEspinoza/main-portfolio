@@ -58,6 +58,9 @@ hr{
 .badges{
     width: 25vmin;
 }
+.badge-con{
+    padding-bottom: 30px;
+}
 @media screen and (max-width:1025px){
     .skillbar{
         width: 27vmin;
