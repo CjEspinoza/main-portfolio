@@ -28,7 +28,7 @@ import { ProjectsComponent } from './projects/projects.component';
   imports: [
     BrowserModule,
     NgbModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
