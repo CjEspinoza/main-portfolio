@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://github.com/CjEspinoza/main-portfolio/blob/master/src/assets/background.jpg?raw=true");
+    background-image: url("/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
